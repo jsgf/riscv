@@ -12,8 +12,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add `Mcause::from(usize)` for use in unit tests
 - Add `Mstatus::from(usize)` for use in unit tests
 - Add `Mstatus.bits()`
-- Add `Mstatus::set_*` helpers to manipulate Mstatus values without touching the
-  CSR
+- Add `Mstatus::update_*` helpers to manipulate Mstatus values without touching
+  the CSR
 - Export `riscv::register::macros` module macros for external use
 
 ### Fixed
