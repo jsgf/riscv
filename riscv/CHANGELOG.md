@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add `Mstatus.bits()`
 - Add `Mstatus::set_*` helpers to manipulate Mstatus values without touching the
   CSR
+- Add `Eq` and `PartialEq` for `pmpcfgx::{Range, Permission}`
 - Export `riscv::register::macros` module macros for external use
 
 ### Fixed
