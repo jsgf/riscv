@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- Allow all bits to be set in Mcause::from_bits on 64-bit targets.
+
 ## [v0.14.0] - 2025-06-10
 
 ### Added
